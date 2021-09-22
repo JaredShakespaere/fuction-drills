@@ -19,7 +19,13 @@ helloWorld()
   Call the function, passing in an argument.
 */
 
-//CODE HERE
+let name1 = 'Cameron'
+
+function printName(name1){
+  console.log(name1)
+}; 
+
+printName(name1)
 
 
 ////////////////// PROBLEM 3 ////////////////////
