@@ -114,9 +114,7 @@ function faveColorFinder(color){
     console.log('you need to evaluate your favorite color choice')
 }
 }
-
 let colorRating = faveColorFinder('green')
-// console.log(colorRating)
 
 ////////////////// PROBLEM 7 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
