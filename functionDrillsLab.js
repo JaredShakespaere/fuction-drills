@@ -125,6 +125,16 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+function printAllNames(names){
+  for(i = 0; i <= names.length -1; i++){
+    console.log(names[i])
+  }
+}
+printAllNames(namesArr)
+
+
+
+
 
 
 ////////////////// PROBLEM 8 ////////////////////
