@@ -155,9 +155,6 @@ function thatsOdd(num){
   }
 }
 let oddChecker = thatsOdd(num)
-
-// console.log(oddChecker)
-
 ////////////////// PROBLEM 9 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 /* 
