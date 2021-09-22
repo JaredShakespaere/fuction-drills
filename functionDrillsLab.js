@@ -38,8 +38,14 @@ printName(name1)
   Ex. If Jake were passed in as the argument, the function would log 'Hello, Jake'
   Make sure to call your function and pass in an argument.
 */
+let name = 'Ana'
 
-//CODE HERE
+function greeting(name){
+  console.log('Hello ' + name)
+};
+
+greeting('Ana')
+
 
 
 ////////////////// PROBLEM 4 ////////////////////
