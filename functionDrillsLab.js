@@ -56,7 +56,17 @@ greeting('Ana')
   Create a variable outside the function called 'sum' and set it equal to add invoked (called), passing in 2 arguments.
 */
 
-//CODE HERE
+function add(num1, num2){
+    num1 = +num1
+    num2 = +num2
+    return num1 + num2
+ 
+}
+
+let sum = add(2,4)
+
+console.log(sum)
+
 
 
 ////////////////// PROBLEM 5 ////////////////////
