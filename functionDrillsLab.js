@@ -102,8 +102,21 @@ function nameCheck(myName){
   Create a variable called 'colorRating' and set it equal to faveColorFinder invoked (called), passing in an argument.
 */
 
-//CODE HERE
 
+function faveColorFinder(color){
+  if(color.includes('red')){
+    console.log('red is a great color')
+} else if(color.includes('green')) {
+    console.log('green is a solid favorite color')
+} else if(color.includes('black')) {
+    console.log('so trendy')
+} else {
+    console.log('you need to evaluate your favorite color choice')
+}
+}
+
+let colorRating = faveColorFinder('green')
+// console.log(colorRating)
 
 ////////////////// PROBLEM 7 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
