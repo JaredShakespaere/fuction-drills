@@ -77,8 +77,19 @@ console.log(sum)
   If the name parameter is anything else, return 'Cool name, NAMEPARAM' (with NAMEPARAM being the value of the name parameter being passed in).
   Create a variable called 'nameGreeting' and set it equal to your function invoked (called) passing in an argument.
 */
+let myName = 'Jose'
 
-//CODE HERE
+function nameCheck(myName){
+  if(myName.includes('Steven')){
+    console.log('what is up Steven?')
+  } else if(myName.includes('Bryan')){
+    console.log('Hey Bryan!')
+  } else {
+    console.log(`Cool name, ${myName}`)
+  }
+   }
+
+   let nameGreeting = nameCheck(myName)
 
 
 ////////////////// PROBLEM 6 ////////////////////
