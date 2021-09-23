@@ -167,18 +167,21 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 */
 
 //CODE HERE
+
 function bigOrSmall(arr){
   let answers = []
   for(i = 0; i <= arr.length -1; i++){
-    if(arr > 100){
-      console.log(answers.push([i],'big'))
+    if(arr[i] > 100){
+      console.log(answers.push('big'))
     } else {
-      console.log(answers.push([i],'small'))
+      console.log(answers.push('small'))
     } 
-}
+} return answers
+
 }
 let arrayEvaluator =bigOrSmall(bigOrSmallArray)
 console.log(arrayEvaluator)
+
 
 ////////////////// PROBLEM 10 ////////////////////
 let contestants = ['Katniss', 'Peeta', 'Fox-face', 'Glimmer', 'Cato', 'Rue', 'Thresh', 'Clove', 'Marvel']
@@ -189,7 +192,14 @@ let loser = 'Glimmer'
 */
 
 //CODE HERE
-
+function theEliminator(contestants, loser){
+  for(i = 0; i <= contestants.length -1; i++){
+    if([i] = loser){
+      contestants.splice(3,1)
+    }
+  } return contestants
+}
+console.log(theEliminator(contestants, loser))
 
 ////////////////// PROBLEM 11 ////////////////////
 let sampleString = "Hi, my name is Kylo."
@@ -199,6 +209,10 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
+function largeString(){
+  console.log(sampleString.toUpperCase())
+}
+largeString(sampleString)
 
 
 ////////////////// PROBLEM 12 ////////////////////
